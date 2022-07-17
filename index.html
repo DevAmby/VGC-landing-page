@@ -27,6 +27,12 @@
     <style>
 
 
+        html {
+        scroll-behavior: smooth;
+        }
+
+
+
         .oppi_food_about_img.img_left img {
             -webkit-box-shadow: none;
             box-shadow: none;
@@ -236,9 +242,12 @@
 
 
 
+        .about-image{
+           width: 100%;
+        }
 
 
-
+        
 
 
 
@@ -337,6 +346,7 @@
             .oppi_food_about_item_two .oppi_food_about_content {
                
                 padding-top: 100px;
+                padding-bottom: 100px;
             }
 
 
@@ -372,8 +382,34 @@
             }
 
 
-           
+
+            .about-image-container{
+                text-align: center !important;
+            }
+
+
+            .about-image-container img{
+                width: 300px !important;
+            }
+
+            .get-notified{
+                padding-bottom: 0px !important;
+            }
             
+
+            .about-image img{
+                height: 15rem !important;
+            }
+
+
+            .visitor-management{
+                padding-top: 20px !important;
+            }
+
+
+            .vgcpora{
+                padding-top: 20px !important;
+            }
             
         }
         
@@ -515,7 +551,48 @@
                 padding-top: 1rem;
             }
 
+
+            .about-image-container{
+                text-align: center !important;
+            }
+
+
+            .about-details{
+                padding-bottom: 0px !important;
+                padding-top: 20px !important;
+            }
             
+
+
+            .about-image-container img{
+                width: 300px !important;
+            }
+
+
+            .get-notified{
+                padding-bottom: 0px !important;
+            }
+
+
+            .about-image img{
+                height: 15rem !important;
+            }
+
+
+
+
+            .visitor-management{
+                padding-top: 20px !important;
+            }
+
+            
+
+            .vgcpora{
+                padding-top: 20px !important;
+            }
+
+
+
         }
         
 
@@ -552,7 +629,7 @@
 
 
                                     <li class="nav-item  ">
-                                        <a class="nav-link " href="#" > About </a>
+                                        <a class="nav-link " href="#about-us" > About </a>
                                         
                                     </li>
                                     
@@ -591,9 +668,11 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex align-items-center">
-                        <div class="oppi_food_about_content">
+                        <div class="oppi_food_about_content vgcpora">
                             <h2>VGCPORA</h2>
-                            <p>The official app for the VGC Property Owners & Resident Association.</p>
+                            <p>The official app for the VGC Property Owners & Resident Association, offering a
+                                secure estate management platform for residents to safely meet all their estate
+                                management needs with ease.</p>
                             <a href="#" class="food_btn">Get Started</a>
                         </div>
                     </div>
@@ -611,8 +690,11 @@
 
                     <div class="col-lg-6 d-flex align-items-center order-2-first">
                         <div class="oppi_food_about_content oppi_food_about_content-right ">
-                            <h2>VGCPORA</h2>
-                            <p>The official app for the VGC Property Owners & Resident Association.</p>
+                            <h2>Powerful and Flexible</h2>
+                            <p>With the VGCPORA app your estate management transactions do not have to be
+                                complicated anymore. This safe and secure platform empowers residents to
+                                collaborate, share, communicate easily with the management office, and manage
+                                visitors.</p>
                             <a href="#" class="food_btn">Get Started</a>
                         </div>
                     </div>
@@ -650,10 +732,13 @@
                             
                         </div>
                     </div>
-                    <div class="col-lg-6 d-flex align-items-center">
-                        <div class="oppi_food_about_content">
-                            <h2>Code Generator</h2>
-                            <p>Generate Codes for visitors and group bookings for event with ease through the app.</p>
+                    <div class="col-lg-6 d-flex align-items-center visitor-management">
+                        <div class="oppi_food_about_content visitor-management">
+                            <h2>A Visitor Management System</h2>
+                            <p>Residents can invite visitors, and get notified when their visitors arrive and leave the
+                                estate, with the app’s visitors center users can generate access codes for visitors,
+                                manage visitors number limits, set up day passes, create visits in advance, limit the
+                                duration of visits and so much more. </p>
                             <a href="#" class="food_btn">Get Started</a>
                         </div>
                     </div>
@@ -669,11 +754,14 @@
 
 
                     <div class="col-lg-6 d-flex align-items-center order-2-second">
-                        <div class="oppi_food_about_content oppi_food_about_content-right">
-                            <h2>Bill Payment</h2>
-                            <p>Pay bills with convinence on the VGCPORA app.</p>
+                        <div class="oppi_food_about_content oppi_food_about_content-right get-notified">
+                            <h2>Get Notified</h2>
+                            <p>The in-app notification system enable residents to monitor and track the movement
+                                of their visitors by sending notifications at the visitor’s entry and exit action using the
+                                QR code at the gate. Residents would also be notified when visitors reach the
+                                duration of their visit period.</p>
                             <a href="#" class="food_btn">Get Started</a>
-                            
+   
                         </div>
                     </div>
 
@@ -699,6 +787,47 @@
 
         <!-- oppi_food_about_area -->
 
+
+        <!-- oppi_food_about_area -->
+        <section class="oppi_food_about_area">
+           
+        </section>
+
+        <section class="oppi_food_about_area_two" id="about-us">
+            <div class="container">
+                <div class="row oppi_food_about_item_two flex-row-reverse ">
+                    <div class="col-lg-6">
+                        <div class="oppi_food_about_img img_left about-image">
+                
+                            <div class="f_app_img_1 wow fadeInUp  about-image-container" data-wow-delay="0.2s">
+                                <img src="images/aboutVGC.jpg" alt="service_img" class="img-fluid" data-parallax='{"x": 0, "y": 50}' style="border-radius:20px ;">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="oppi_food_about_content about-details">
+                            <h2> ABOUT US</h2>
+                            <p>The official app for the VGC Property Owners & Resident Association, offers a secure
+                                estate management platform for residents to safely meet all their estate management
+                                needs with ease.
+                                
+                                <br><br>
+
+                                The QR access code generation, in-app notification, bill payment, and message
+                                center, offer a complete contactless experience with resident’s two-way messaging to
+                                management, in-app bill settlements and the mobile visitor scan and go!
+                                The in-app user analytics enable users to monitor and measure their activities on the
+                                app, from total visitors received or cancelled, spaces booked and bills paid to tracking
+                                the status of requests and complaints raised to management.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- oppi_food_about_area -->
         
 
        
@@ -723,6 +852,9 @@
             
         </section>
 
+
+
+        
         
        
         
